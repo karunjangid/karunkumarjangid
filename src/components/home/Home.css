@@ -1,0 +1,107 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    height: 40vh;
+   font-size: 25px;
+   transition: 0.5s ease;
+   }
+   .main{
+       height: 100vh;
+       background-repeat: no-repeat;
+       width: 99vw;
+       background-size: contain;
+       background-color: rgb(255, 255, 255);
+       transition: 1s ease;
+   }
+   .socialmedia{
+       display: flex;
+       justify-content: space-between;
+       transition: 1s ease;
+   }
+   .first{
+       display: flex;
+       gap: 10px;
+       margin: 30px;
+       font-size:20px;
+       transition: 0.3s ease;
+   }
+   .second{
+       display: flex;
+       gap: 10px;
+       margin: 30px;
+       font-size:20px;
+       transition: 1s ease;
+   }
+   .colors ul{
+       display: flex;
+       flex-direction: column;
+       margin: 30px;
+       list-style: none;
+       gap: 10px;
+       transition: background-color 0.5s ease-in-out;
+   }
+   .icons{
+       display: flex;
+       gap: 30px;
+   }
+   a{
+    color: black;
+   }
+   a:hover{
+    color: #05ffff;
+   }
+   .second a:hover{
+    text-shadow: 10px 10px 4px 50px;
+   }
+   .colors ul::before{
+    content: "";
+    background-color: rgb(255, 253, 253);
+    position: relative;
+    height: 6px;
+    width: 40px;
+    right: 38px;
+    top: 42px;
+    transition: 1s ease;    
+   }
+
+   
+  .colors ul:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .colors li {
+    transition: color 0.5s ease-in-out;
+  }
+  
+  .colors li:hover {
+    color: #fff;
+  }
+  .particle {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    animation: explode 9s ease-in-out;
+  }
+  .btn-1{
+    -webkit-box-reflect: 
+    0px linear-gradient(transparent, #0005);
+    box-shadow: 0 0 5px #05ffff, 0 0 5px #05ffff,0 0 15px #05ffff, 0 0 100px #05ffff;
+  }
+  .btn-1:hover{
+    animation: explode 0.1s;
+  }
+  
+  @keyframes explode {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

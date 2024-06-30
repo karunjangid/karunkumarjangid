@@ -1,0 +1,82 @@
+.mainofform{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(1800deg, rgba(0,0,0,0.7786764363948704) 77%, rgba(0,0,0,1) 100%),url("C:\Users\Asus\Desktop\internship\DreamPr\my-project\src\assets\formback.png");
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.secondmain{
+    background-color: rgb(255, 0, 0);
+    height: 60vh;
+    width: 100vh;
+    border-radius:0px 0px 20px 20px;
+    display: flex;
+    color: white;
+}
+.navv{
+    background-color: rgba(229, 229, 229, 0);
+    height: 4vh;
+    width: 100vh;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(69, 66, 66);
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(200, 187, 187, 0);
+    height: 60vh;
+    width: 50vh;
+    border-radius: 0px 0px 0px 20px;
+}
+.clrpl{
+    margin: 13px;
+    display: flex;
+    gap:5px;
+    font-size: 10px;
+    
+}
+.servi{
+    margin: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(0, 255, 255, 0);
+    width: 50vh;
+    border-radius: 0px 0px 20px 0px;
+}
+.buttons{
+    display: flex;
+}
+.buttons button{
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+    font-size: 16px;
+    position: relative;
+    left: 60px;
+    top: 40px;
+    cursor: pointer;
+    padding: 10px 30px;
+    transition: 1s;
+}
+.buttons button:hover{
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 50px 50px;
+    color: white;
+}
+::placeholder {
+    color: #393232; /* change the color to your desired value */
+  }
+
